@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width,initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+<meta charset="UTF-8">
+<style>
+h1 {
+left: 75px;
+top: 174px;
+width: 225px;
+height: 37px;
+color: rgba(255, 141, 26, 1);
+font-size: 36px;
+}
+input {
+left: 60px;
+top: 263px;
+width: 204px;
+height: 27px;
+background-color: rgba(255, 255, 255, 1);
+border: 3px solid rgba(42, 130, 228, 1);
+border-radius: 23px;
+}
+button {
+left: 279px;
+top: 263px;
+width: 55px;
+height: 27px;
+background-color: rgba(255, 255, 255, 1);
+border: 3px solid rgba(255, 141, 26, 1);
+border-radius: 23px;
+}
+</style>
+<script>
+window.onload = function (){
+            var oBtn = document.getElementsByTagName("button")[0];
+            var oTxt = document.getElementsByTagName("input")[0];
+            
+            function click() {
+                if (oTxt.value == "") {
+                    location.reload();
+                } else {
+                    window.open("https://www.baidu.com/s?wd=" + oTxt.value);
+                }
+            }
+            
+            oBtn.onclick = click;
+            oTxt.onkeydown = function(e) {
+                if (!e) e = window.event;
+                if (e.keyCode == 13) {
+                    click();
+                }
+            }
+        }
+    </script>
+<title>COCX Home</title>
+</head>
+  <body>
+
+	<h1>COCX Home</h1>
+	<input type="text">
+        <button>Go</button>
+<!--em，我很好奇我写的按钮为什么会莫名奇怪的消失，算了，干脆删掉吧，hhh-->
+  </body>
+</html>

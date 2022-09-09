@@ -41,7 +41,7 @@ header {
 #offer {
 	font-family: 'Montserrat', sans-serif;
 	clear: both;
-	background-color: rgba(33,133,60,0.26);
+	background-color: rgba(33,133,60,0.47);
 	color: rgba(237,82,2,1.00);
 	padding-left: 115px;
 	padding-top: 57px;
@@ -62,7 +62,7 @@ header {
 	padding-left: 3%;
 	padding-right: 3%;
 	text-align: center;
-	background-color: rgba(33,133,60,0.26);
+	background-color: rgba(33,133,60,0.47);
 	padding-top: 36px;
 	height: 784px;
 }
@@ -152,7 +152,7 @@ header {
 #mainWrapper footer {
 	clear: both;
 	overflow: auto;
-	background-color: rgba(33,133,60,0.26);
+	background-color: rgba(33,133,60,0.47);
 	font-family: source-sans-pro, sans-serif;
 	font-style: normal;
 	font-weight: 200;
